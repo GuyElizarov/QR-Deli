@@ -1,0 +1,39 @@
+.confirmation {
+    height: 60vh;
+    width: 80vw;
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px $clr1; 
+    background-color: #fff;
+
+    p:nth-of-type(1){
+        font-size: 30px;
+        flex-grow: 1;
+
+    }
+    p:nth-of-type(2){
+        font-size: 20px;
+        flex-grow: 1;
+
+    }
+    p:nth-of-type(3){
+        font-size: 20px;
+        flex-grow: 1;
+    }
+    p:nth-of-type(4){
+        display: flex;
+        flex-grow: 2;
+        align-items: flex-start;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 60px;
+    }
+}
+
+.confirmation-container {
+    font-family: sans-serif;
+
+    h3 {
+        margin: 50px 0;
+    }
+}

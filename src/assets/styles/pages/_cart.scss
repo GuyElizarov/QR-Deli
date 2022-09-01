@@ -1,0 +1,6 @@
+.cart {
+    .cart-button {
+        margin: 17px 0;
+        @include btn($bg: $clr2);
+    }
+}

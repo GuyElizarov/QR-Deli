@@ -1,0 +1,23 @@
+.app-header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+   background-color: #fff;
+   z-index: 10;
+   padding: 0 8px;
+    img {
+        object-fit: contain;
+        width: 50px;
+        margin: 10px;
+
+    }
+    .cart-icon{
+        width: 30px;
+       
+    }
+    border-bottom: 5px solid #048bf3;
+}
+
+.header-place-holder{
+    height: 60px;
+}

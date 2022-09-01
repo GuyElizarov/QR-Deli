@@ -1,0 +1,18 @@
+.login {
+    font-family: sans-serif;
+
+    h2 {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    form {
+        border-radius: 50px;
+        button {
+            margin-top: 50px;
+            height: 65px;
+            align-self: center;
+            font-size: medium;
+        }
+    }
+}

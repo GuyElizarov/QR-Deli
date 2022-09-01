@@ -1,0 +1,23 @@
+.home-page {
+    gap: 50px;
+
+    &:first-child {
+        margin-top: 20vh;
+    }
+
+    div:last-of-type {
+        background-color: $clr2;
+    }
+
+    .home-button {
+        @include btn;
+
+        &:last-child {
+            background-color: $clr2;
+
+            &:active {
+                background-color: darken($clr2, 15%);
+            }
+        }
+    }
+}
