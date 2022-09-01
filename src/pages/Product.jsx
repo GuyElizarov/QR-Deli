@@ -11,7 +11,7 @@ export function Product() {
 
     useEffect(() => {
         loadProducts()
-    })
+    },[])
 
     const loadProducts = async () => {
         const type = location.pathname === '/meat' ? 'meat' : 'dairy'

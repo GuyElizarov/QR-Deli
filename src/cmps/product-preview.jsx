@@ -7,7 +7,7 @@ export const ProductPreview = ({ product }) => {
 
     useEffect(() => {
         if (product.weight) setWeight(product.weight)
-    })
+    },[])
 
     return <article className="product-preview flex column space-between">
         <div className="content flex">
